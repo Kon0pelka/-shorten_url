@@ -1,2 +1,2 @@
 redis_url: 'redis://localhost:6379/0'
-site_url: 'example.com'
+site_url: 'localhost:3000'

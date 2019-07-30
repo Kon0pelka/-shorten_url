@@ -2,3 +2,8 @@ update_domains:
   cron: "10 * * * *"
   class: "UpdateListOfDomainsJob"
   queue: default
+
+load_urls:
+  cron: "*/20 * * * *"
+  class: "LoadUrlInRedisJob"
+  queue: default
