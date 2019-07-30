@@ -1,0 +1,4 @@
+update_domains:
+  cron: "10 * * * *"
+  class: "UpdateListOfDomainsJob"
+  queue: default
